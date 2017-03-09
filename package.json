@@ -1,0 +1,23 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "practice javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js -o bundle.js -d -v",
+    "watch": "watchify index.js -o bundle.js -d -v"
+
+  },
+  "keywords": [
+    "javascript",
+    "practice"
+  ],
+  "author": "Thai Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "mustache": "^2.3.0"
+  }
+}
